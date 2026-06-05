@@ -282,3 +282,47 @@ input[type="submit"]:hover {
 input[type="submit"]:active {
     background: #222;
 }
+/* ===== Адаптивність ===== */
+
+@media (max-width: 768px) {
+
+    .container {
+        width: 95%;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 0.8rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    .card {
+        padding: 0.8rem;
+    }
+
+    form {
+        padding: 1rem;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        font-size: 0.95rem;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+    }
+}
