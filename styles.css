@@ -36,13 +36,10 @@ nav > ul > li {
     display: inline-block;
     margin-right: 1rem;
 }
-
 input[type="text"] {
     border: 1px solid #aaa;
     padding: 0.5rem;
 }
-
-
 a:hover {
     color: rgb(0, 120, 255);
 }
